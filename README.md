@@ -4,7 +4,7 @@ This is a command line Dart application that reads a JSON file and translates th
 a specified language and creates a translated JSON file especially useful for localization
 in Flutter apps.
 
-[<span style="color:green">**NOTE**</span>]: You may find ['json_creator'](https://pub.dev/packages/json_creator)
+[<span style="color: green">**NOTE**</span>]: You may find ['json_creator'](https://pub.dev/packages/json_creator)
 package on pub.dev helpful if you are creating a JSON file for localization of prebuilt Flutter apps.
 https://pub.dev/packages/json_creator
 
