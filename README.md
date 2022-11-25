@@ -25,6 +25,8 @@ This program is published to pub.dev so you can use this package:
 dart pub global activate json_translator
 ```
 
+<img src="https://github.com/rijalsandeshraj/json_translator/raw/main/screenshots/path_warning.png" />
+
 If the warning is shown, you need to add the highlighted directory to your system's "Path"
 environment variable for allowing the executable to run. Run the following command after adding
 the directory to path.
@@ -38,6 +40,8 @@ json_translator
 ```ps
 dart run
 ```
+
+<img src="https://github.com/rijalsandeshraj/json_translator/raw/main/screenshots/get_started.png" />
 
 ## Steps involved while running the program
 
@@ -53,6 +57,8 @@ dart run
 ## Output
 
 The output JSON file is created in the working directory as \*entered_language_code.json.
+
+<img src="https://github.com/rijalsandeshraj/json_translator/raw/main/screenshots/output.png" />
 
 ## Additional Information
 
