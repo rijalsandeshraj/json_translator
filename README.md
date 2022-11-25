@@ -1,11 +1,11 @@
 # JSON_TRANSLATOR for Flutter Apps Localization
 
-This is a command line Dart application that reads a JSON file and translates the values to
+This is a command line Dart application that reads a JSON file, translates the values to
 a specified language and creates a translated JSON file especially useful for localization
 in Flutter apps.
 
-[<span style="color: green">**NOTE**</span>]: You may find ['json_creator'](https://pub.dev/packages/json_creator)
-package on pub.dev helpful if you are creating a JSON file for localization of prebuilt Flutter apps.
+[**NOTE**]: You may find ['json_creator'](https://pub.dev/packages/json_creator) package on
+pub.dev helpful if you are creating a JSON file for localization of prebuilt Flutter apps.
 https://pub.dev/packages/json_creator
 
 This package intends to help Flutter developers who have already developed a Flutter app and

@@ -24,7 +24,7 @@ Future<void> main() async {
   if (filePath != null && filePath.isNotEmpty) {
     Directory dir = Directory(filePath);
     // Checks if the the path is valid
-    if (dir.existsSync() && dir.path.endsWith('.json')) {
+    if (dir.path.endsWith('.json')) {
       File srcFile = File(dir.path);
       String languageCode = getLanguageCode();
       if (languageCodes.contains(languageCode)) {
