@@ -1,6 +1,6 @@
 name: json_translator
 description: This is a command line Dart application that reads a JSON file, translates the values and creates a translated JSON file especially useful for localization in Flutter apps.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/rijalsandeshraj/json_translator
 
 environment:
