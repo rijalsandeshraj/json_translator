@@ -14,7 +14,7 @@ String? getFilePath() {
 File returnFile(String languageCode) {
   Directory currentDirectory = getCurrentDirectory();
   final String path = currentDirectory.path;
-  final File file = File('$path/$languageCode.json');
+  final File file = File('$path/app_$languageCode.json');
   return file;
 }
 
