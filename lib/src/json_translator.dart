@@ -40,7 +40,7 @@ Future<void> main() async {
           if (line.contains(valueExp)) {
             String actualMatch = matches.first[0]!.replaceAll(replaceExp, '');
             String translation = await translate(actualMatch, to: languageCode);
-            print('Translated: [$actualMatch] >> [$translation]');
+            print('✅ Translated: [$actualMatch] >> [$translation]');
             translationFile.writeAsStringSync(
               '${line.replaceAll(actualMatch, translation)}\n',
               mode: FileMode.append,
@@ -53,12 +53,12 @@ Future<void> main() async {
           }
         }
       } else {
-        print('The language code is invalid!');
+        print('❗ The language code is invalid!');
       }
     } else {
-      print('Path is not valid!');
+      print('❗ Path is not valid!');
     }
   } else {
-    print('You didn\'t enter the path!');
+    print('❗ You didn\'t enter the path!');
   }
 }
